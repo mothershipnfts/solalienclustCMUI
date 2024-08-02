@@ -39,7 +39,7 @@ export const HomeView: FC = ({ }) => {
           <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-lg blur opacity-40 animate-tilt"></div>
           <div>
             <Image
-              src="/collection.png" // Replace with your image path or URL
+              src="/collection.PNG" // Replace with your image path or URL
               alt="Sol Alien Cluster"
               layout="responsive"
               width={800} // Set appropriate width
