@@ -85,7 +85,29 @@ export const HomeView: FC = ({ }) => {
             </div>
           </div>
         </div>
+        {/* New Section with Trading Info */}
+    <div className="mt-16"> {/* Increased margin-top for spacing */}
+      <div className="flex flex-col md:flex-row gap-8">
+        {/* Image on the Left */}
+        <div className="flex-1">
+          <img
+            src="/magic-eden-trading.gif" // Replace with your image path or URL
+            alt="Trading on Magic Eden"
+            className="w-full h-auto object-cover rounded-lg shadow-lg"
+          />
+        </div>
+        
+        {/* Text Field on the Right */}
+        <div className="flex-1">
+          <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">Trade on Magic Eden</h2>
+          <p className="text-lg text-gray-400">
+            After minting your Sol Alien NFT, you can easily trade it on Magic Eden. Enjoy a smooth trading experience with high liquidity and a secure platform. Magic Eden connects you with a vibrant community and offers great exposure for your NFT. Buy, sell, and explore new opportunities in the dynamic world of NFTs.
+          </p>
+        </div>
       </div>
     </div>
+  </div>
+</div>
   );
 };
+
