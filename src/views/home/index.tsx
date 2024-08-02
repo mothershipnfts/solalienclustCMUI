@@ -39,7 +39,7 @@ export const HomeView: FC = ({ }) => {
           <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-lg blur opacity-40 animate-tilt"></div>
           <div>
             <Image
-              src="https://salmon-tory-unicorn-148.mypinata.cloud/ipfs/QmaEPaF7BXAehPbGHJWo24hdzLLjrMguMQgUgCYJSRbiuA" // Replace with your image path or URL
+              src="/collection.png" // Replace with your image path or URL
               alt="Sol Alien Cluster"
               layout="responsive"
               width={800} // Set appropriate width
