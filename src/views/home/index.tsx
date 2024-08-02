@@ -91,7 +91,7 @@ export const HomeView: FC = ({ }) => {
         {/* Image on the Left */}
         <div className="flex-1">
           <img
-            src="/magic-eden-trading.gif" // Replace with your image path or URL
+            src="/gmsample.gif" // Replace with your image path or URL
             alt="Trading on Magic Eden"
             className="w-full h-auto object-cover rounded-lg shadow-lg"
           />
