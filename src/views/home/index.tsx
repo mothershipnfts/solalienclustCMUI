@@ -39,7 +39,7 @@ export const HomeView: FC = ({ }) => {
         <div className="relative group">
           <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-lg blur opacity-40 animate-tilt"></div>
           <div>
-            <img
+            <image
               src="https://salmon-tory-unicorn-148.mypinata.cloud/ipfs/QmaEPaF7BXAehPbGHJWo24hdzLLjrMguMQgUgCYJSRbiuA" // Replace with your image path or URL
               alt="Sol Alien Cluster"
               className="w-full h-auto max-h-80 object-contain" // Adjust the size as needed
@@ -77,7 +77,7 @@ export const HomeView: FC = ({ }) => {
 
             {/* Image on the Right */}
             <div className="flex-1">
-              <img
+              <image
                 src="/gif14.gif" // Replace with your image path or URL
                 alt="Explore Sol Alien Cluster"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
@@ -90,7 +90,7 @@ export const HomeView: FC = ({ }) => {
       <div className="flex flex-col md:flex-row gap-8">
         {/* Image on the Left */}
         <div className="flex-1">
-          <img
+          <image
             src="/gmsample.gif" // Replace with your image path or URL
             alt="Trading on Magic Eden"
             className="w-full h-auto object-cover rounded-lg shadow-lg"
