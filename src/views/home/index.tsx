@@ -28,17 +28,14 @@ export const HomeView: FC = ({ }) => {
 
   return (
 
-    <div className="md:hero mx-auto p-4">
+   <div className="md:hero mx-auto p-4">
       <div className="md:hero-content flex flex-col">
-        <div className='mt-6'>
-        <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-cyan-600 mb-10">
+        <div className='mt-0'>
+        <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">
           Sol Alien Cluster
       </h1>
         </div>
-        <h4 className="md:w-full text-2x1 md:text-4xl text-center text-slate-300 mb-2">
-          <p>The Sol Alien Cluster is an NFT collection featuring 10,000 unique Aliens.  Own a Sol Alien and support the Solana community.   Connect with like-minded explorers, become the holder of an asset in the next revolutionary cryptocurrency, Solana.</p>
-          <p className='text-slate-500 text-2x1 leading-relaxed'>Mint live</p>
-        </h4>
+        
         <div className="relative group">
           <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-lg blur opacity-40 animate-tilt"></div>
           <div>
@@ -53,10 +50,10 @@ export const HomeView: FC = ({ }) => {
           <CandyMint /> 
           <h4 className="md:w-full text-2xl text-slate-300 my-2">
           {wallet &&
-          <div className="flex flex-row justify-center">
+          <div className="flex flex-col items-center">
             
-              <div className='text-slate-600 ml-2'>
-                Get your Solana NFT Now!
+              <div className='text-center text-slate-420 ml-2'>
+              The Sol Alien Cluster is an NFT collection featuring 10,000 unique Aliens.  Own a Sol Alien and support the Solana community.   Connect with like-minded explorers, become the holder of an asset in the next revolutionary cryptocurrency, Solana.
               </div>
           </div>
           }
