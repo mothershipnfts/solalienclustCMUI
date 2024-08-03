@@ -20,7 +20,7 @@ export const AppBar: React.FC = () => {
         <div className="navbar-start align-items-center">
           <div className="hidden sm:inline w-22 h-22 md:p-2 ml-10">
             <Link href="https://www.mothershipnfts.com/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-              <img src="/solanalogo.png" alt="Mothership NFTs" className="w-full h-auto" />
+              <image src="/solanalogo.png" alt="Mothership NFTs" className="w-full h-auto" />
           
               <svg width="100%" height="3" viewBox="0 0 656 96" fill="none" xmlns="http://www.w3.org/2000/svg">
 
