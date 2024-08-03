@@ -30,15 +30,13 @@ export const HomeView: FC = ({ }) => {
     <div className="md:hero mx-auto p-4">
       <div className="md:hero-content flex flex-col">
         <div className='mt-0'>
-          <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">
-            Sol Alien Cluster
-          </h1>
+          
         </div>
         
         <div className="relative group">
   <div className="relative z-10">
     <Image
-      src="/collection.PNG" // Replace with your image path or URL
+      src="/solalienclusterlogo2.png" // Replace with your image path or URL
       alt="Sol Alien Cluster"
       layout="responsive"
       width={800} // Set appropriate width
