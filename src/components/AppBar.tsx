@@ -24,10 +24,7 @@ export const AppBar: React.FC = () => {
                 <img src="/solanalogo.png" alt="Solana Logo" className="w-full h-auto" />
               </a>
             </Link>
-          </div>
-          <WalletMultiButtonDynamic className="btn-ghost btn-sm relative flex md:hidden text-lg " />
-        </div>
-
+          
               <defs>
   <linearGradient id="paint0_linear_1064_606" x1="10.81" y1="98.29" x2="98.89" y2="-1.01005" gradientUnits="userSpaceOnUse">
     <stop offset="0.08" stopColor="#006400" /> 
