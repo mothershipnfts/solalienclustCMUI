@@ -19,31 +19,30 @@ export const AppBar: React.FC = () => {
       <div className="navbar flex h-20 flex-row md:mb-2 shadow-lg bg-black text-neutral-content border-b border-zinc-600 bg-opacity-66">
         <div className="navbar-start align-items-center">
           <div className="hidden sm:inline w-22 h-22 md:p-2 ml-10">
-            <Link href="https://www.mothershipnfts.com/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-              <img src="/solanalogo.png" alt="Solana Logo" className="w-full h-auto" />
-          
-              <svg width="100%" height="0" viewBox="0 0 656 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-          
-              <defs>
-  <linearGradient id="paint0_linear_1064_606" x1="10.81" y1="98.29" x2="98.89" y2="-1.01005" gradientUnits="userSpaceOnUse">
-    <stop offset="0.08" stopColor="#006400" /> 
-    <stop offset="0.3" stopColor="#228B22" /> 
-    <stop offset="0.5" stopColor="#32CD32" /> 
-    <stop offset="0.6" stopColor="#7CFC00" /> 
-    <stop offset="0.72" stopColor="#ADFF2F" /> 
-    <stop offset="0.97" stopColor="#00FF00" /> 
-  </linearGradient>
-
-                  <clipPath id="clip0_1064_606">
-                    <rect width="646" height="96" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
+            <Link href="https://www.mothershipnfts.com/" target="_blank" rel="noopener noreferrer">
+              <div className="text-secondary hover:text-white">
+                <img src="/solanalogo.png" alt="Solana Logo" className="w-full h-auto" />
+                <svg width="100%" height="0" viewBox="0 0 656 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="paint0_linear_1064_606" x1="10.81" y1="98.29" x2="98.89" y2="-1.01005" gradientUnits="userSpaceOnUse">
+                      <stop offset="0.08" stopColor="#006400" /> 
+                      <stop offset="0.3" stopColor="#228B22" /> 
+                      <stop offset="0.5" stopColor="#32CD32" /> 
+                      <stop offset="0.6" stopColor="#7CFC00" /> 
+                      <stop offset="0.72" stopColor="#ADFF2F" /> 
+                      <stop offset="0.97" stopColor="#00FF00" /> 
+                    </linearGradient>
+                    <clipPath id="clip0_1064_606">
+                      <rect width="646" height="96" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
             </Link>
           </div>
           <WalletMultiButtonDynamic className="btn-ghost btn-sm relative flex md:hidden text-lg " />
         </div>
+
 
         {/* Nav Links */}
         {/* Wallet & Settings */}
