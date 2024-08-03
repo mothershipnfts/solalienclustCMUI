@@ -54,7 +54,7 @@ export const HomeView: FC = ({ }) => {
             {wallet && (
               <div className="flex flex-col items-center">
                 <div className='text-center text-slate-420 ml-2'>
-                  Sol Alien Cluster is an NFT collection featuring 10,000 unique Aliens. Own a Sol Alien and support the Solana community. Connect with like-minded explorers, become a holder of an asset in the next revolutionary cryptocurrency, Solana.
+                  Sol Alien Cluster is an NFT collection featuring 10,000 unique Aliens. Own a Sol Alien and be a part of the Solana community. Connect with like-minded explorers, become a holder of an asset in the next revolutionary cryptocurrency, Solana.
                 </div>
               </div>
             )}
