@@ -36,18 +36,17 @@ export const HomeView: FC = ({ }) => {
         </div>
         
         <div className="relative group">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-lg blur opacity-40 animate-tilt"></div>
-          <div>
-            <Image
-              src="/collection.PNG" // Replace with your image path or URL
-              alt="Sol Alien Cluster"
-              layout="responsive"
-              width={800} // Set appropriate width
-              height={600} // Set appropriate height
-              className="object-contain" // Adjust the size as needed
-            />
-          </div>
-        </div>
+  <div className="relative z-10">
+    <Image
+      src="/collection.PNG" // Replace with your image path or URL
+      alt="Sol Alien Cluster"
+      layout="responsive"
+      width={800} // Set appropriate width
+      height={600} // Set appropriate height
+      className="object-contain relative z-10 glow-image" // Adjust the size as needed
+    />
+  </div>
+</div>
 
         <div className="flex flex-col mt-2">
           <CandyMint /> 
@@ -116,10 +115,36 @@ export const HomeView: FC = ({ }) => {
           </div>
         </div>
       {/* Additional Mint Button */}
-        <div className="flex justify-center mt-16">
+      <div className="flex justify-center mt-16">
           <CandyMint />
         </div>
+ 
+        {/* New Welcome Section */}
+        <div className="mt-16 text-center">
+          <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">
+            Join Our Community!
+          </h2>
+          <p className="text-lg text-gray-400 mb-10">
+            Thank you for visiting the Sol Alien Cluster. Stay connected with us and be a part of our vibrant community. Join us on Twitter and Discord to keep up with the latest updates and engage with other members.
+          </p>
+          <div className="flex justify-center gap-8">
+            <a href="https://x.com/mothership_nfts" target="_blank" rel="noopener noreferrer">
+              <button className="bg-gray-800 text-white py-2 px-4 rounded glow-button">Join us on Twitter</button>
+            </a>
+            <a href="https://discord.com/invite/CSH5bGcVP9" target="_blank" rel="noopener noreferrer">
+              <button className="bg-gray-800 text-white py-2 px-4 rounded glow-button">Join us on Discord</button>
+            </a>
+          </div>
+        </div>
       </div>
+      <style jsx>{`
+        .glow-button {
+          transition: box-shadow 0.3s ease;
+        }
+        .glow-button:hover {
+          box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+        }
+      `}</style>
     </div>
   );
 };
