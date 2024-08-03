@@ -69,7 +69,7 @@ export const HomeView: FC = ({ }) => {
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">Explore More</h2>
               <p className="text-lg text-gray-400">
-  Dive deeper into the cosmic abyss with Sol Alien Cluster, an extraordinary NFT collection on the Solana blockchain. Each NFT in this collection is a unique digital artifact, generated to embody the infinite wonders of the universe. 
+  Dive deeper into the cosmic abyss with the sol alien cluster, an extraordinary NFT collection on the Solana blockchain. Each NFT in this collection is a unique digital artifact, generated to embody the infinite wonders of the universe. 
   Every Sol Alien NFT is one-of-a-kind, meticulously designed to ensure no two pieces are alike. This uniqueness is not just a feature; it&apos;s the essence of the collection.
   Art Meets Community. It&apos;s a representation of our vibrant community and its core values. Each Sol Alien embodies a piece of our collective spirit and creativity.
   By owning a Sol Alien, you’re not just acquiring digital art; you’re becoming a part of a revolutionary ecosystem. Our vision is to merge art with technology, fostering a community-driven project that thrives on innovation and shared values.
@@ -115,8 +115,11 @@ export const HomeView: FC = ({ }) => {
             </div>
           </div>
         </div>
+      {/* Additional Mint Button */}
+        <div className="flex justify-center mt-16">
+          <CandyMint />
+        </div>
       </div>
     </div>
   );
 };
-
