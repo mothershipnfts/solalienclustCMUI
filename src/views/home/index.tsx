@@ -134,8 +134,35 @@ export const HomeView: FC = ({ }) => {
             </a>
           </div>
         </div>
+     
+        {/* Icons Section */}
+        <div className="w-full flex justify-center items-center mt-16 p-4 bg-transparent-900">
+          <div className="flex space-x-4">
+            <a href="https://www.mothershipnfts.com/" target="_blank" rel="noopener noreferrer">
+              <Image src="/collection.png" alt="Collection" width={50} height={40} />
+            </a>
+            <a href="https://x.com/mothership_nfts" target="_blank" rel="noopener noreferrer">
+              <Image src="/twitter-logo.png" alt="Twitter" width={45} height={40} />
+            </a>
+            <a href="https://www.tensor.trade/trade/msac" target="_blank" rel="noopener noreferrer" className="move-up">
+              <Image src="/tensor-logo.png" alt="Tensor" width={55} height={40} />
+            </a>
+            <a href="https://discord.gg/CSH5bGcVP9" target="_blank" rel="noopener noreferrer">
+              <Image src="/discord-logo.png" alt="Discord" width={60} height={40} />
+            </a>
+            <a href="https://magiceden.io/marketplace/msac" target="_blank" rel="noopener noreferrer">
+              <Image src="/magic-eden-logo.png" alt="Magic Eden" width={80} height={40} />
+            </a> 
+          </div>
+        </div>
       </div>
       <style jsx>{`
+        .bg-background-image {
+          background-image: url('/cave.png'); /* Replace with your image path */
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
         .glow-button {
           transition: box-shadow 0.3s ease;
         }
