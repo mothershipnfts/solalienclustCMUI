@@ -93,10 +93,8 @@ export const CandyMint: FC = () => {
 
     return (
         <div className="flex flex-col items-center">
-            <h1>Mint Your NFT</h1>
+            <h1></h1>
             <p>Mint Price: {mintPrice} SOL</p>
-            <p>Network Fees: {networkFees.toFixed(6)} SOL</p>
-            <p>Total Cost: {totalCost.toFixed(6)} SOL</p>
             <div className="relative group items-center">
                 <div className="m-1 absolute -inset-0.5 bg-gradient-to-r from-green-400 to-green-600 
                     rounded-lg blur opacity-20 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
@@ -104,7 +102,7 @@ export const CandyMint: FC = () => {
                     className="px-8 m-2 btn animate-pulse bg-gradient-to-br from-green-400 to-green-600 hover:from-green-300 hover:to-green-500 text-black"
                     onClick={onClick}
                 >
-                    <span>Mint NFT (Cost: {totalCost.toFixed(6)} SOL)</span>
+                    <span>Mint NFT</span>
                 </button>
             </div>
         </div>
