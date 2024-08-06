@@ -139,7 +139,7 @@ export const HomeView: FC = ({ }) => {
         <div className="w-full flex justify-center items-center mt-16 p-4 bg-transparent-900">
           <div className="flex space-x-4">
             <a href="https://www.mothershipnfts.com/" target="_blank" rel="noopener noreferrer">
-              <Image src="/collection.png" alt="Collection" width={50} height={40} />
+              <Image src="/collection.PNG" alt="Collection" width={50} height={40} />
             </a>
             <a href="https://x.com/mothership_nfts" target="_blank" rel="noopener noreferrer">
               <Image src="/twitter-logo.png" alt="Twitter" width={45} height={40} />
