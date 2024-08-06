@@ -95,7 +95,7 @@ export const HomeView: FC = ({ }) => {
             <div className="flex-1">
               <Image
                 src="/gmsample.gif" // Replace with your image path or URL
-                alt="Trading on Magic Eden"
+                alt="Trading on Tensor and Magic Eden"
                 layout="responsive"
                 width={800} // Set appropriate width
                 height={600} // Set appropriate height
@@ -107,7 +107,7 @@ export const HomeView: FC = ({ }) => {
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">Trade on Magic Eden</h2>
               <p className="text-lg text-gray-400">
-                After minting your Sol Alien NFT, you can easily trade it on Magic Eden. Enjoy a smooth trading experience with high liquidity and a secure platform. Magic Eden connects you with a vibrant community and offers great exposure for your NFT. Buy, sell, and explore new opportunities in the dynamic world of NFTs.
+                After minting your NFT, you can easily trade it on Tensor and Magic Eden. Enjoy a smooth trading experience with high liquidity and a secure platform of your choice. Sol Alien Cluster connects you with a vibrant community and offers great exposure for your NFT. Buy, sell, and explore new opportunities in the dynamic world of NFTs.
               </p>
             </div>
           </div>
