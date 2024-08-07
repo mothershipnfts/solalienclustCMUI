@@ -154,7 +154,7 @@ export const HomeView: FC = ({ }) => {
               <Image src="/magic-eden-logo.png" alt="Magic Eden" width={80} height={40} />
             </a> 
             <a href="https://www.mothershipnfts.com/" target="_blank" rel="noopener noreferrer">
-              <Image src="/NFTdroops-logo.webp" alt="Magic Eden" width={120} height={40} />
+              <Image src="/NFTdroops-logo.webp" alt="Magic Eden" width={160} height={40} />
             </a> 
           </div>
         </div>
