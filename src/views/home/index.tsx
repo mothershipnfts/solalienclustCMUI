@@ -52,20 +52,8 @@ export const HomeView: FC = ({ }) => {
             {wallet && (
               <div className="flex flex-col items-center">
                 <div className='text-center text-slate-420 ml-2'>
-                  Welcome to the Sol Alien Cluster - Where Innovation Meets the Unknown!
-
-Embark on an interstellar journey with Sol Alien Cluster, an exclusive NFT collection of 10,000 unique, cosmic Aliens. Each Sol Alien is a gateway to a vibrant community of explorers and visionaries who believe in the power of the next revolutionary cryptocurrency, Solana.
-
-Join the Mission:
-By owning a Sol Alien, you become part of a bold movement pushing the boundaries of the digital frontier. Not just an NFT, but a badge of honor in the Solana ecosystem—where technology, creativity, and community collide.
-
-Unleash the Future:
-This isn’t just about collecting; it’s about being part of something bigger. As a holder, you’ll unlock access to exclusive perks, future airdrops, and collaborations that are out of this world. Align yourself with the fastest-growing blockchain and watch your digital assets reach new heights.
-
-Ready to Take Off?
-Connect with like-minded explorers, showcase your Sol Alien, and stake your claim in the ever-expanding universe of Solana. Don’t miss your chance to own a piece of the future—mint your Sol Alien today and be a part of the next wave of digital pioneers!
-
-Sol Alien Cluster—The Galaxy Awaits.
+                 Welcome to the Sol Alien Cluster—a group of aliens chilling on the Solana Network.
+Before there were chimps, there were aliens. Now it's time for the aliens to return and take over the world. It's time to destroy all humans.
                 </div>
               </div>
             )}
@@ -77,13 +65,11 @@ Sol Alien Cluster—The Galaxy Awaits.
           <div className="flex flex-col md:flex-row gap-8">
             {/* Text Field on the Left */}
             <div className="flex-1">
-              <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">Explore More</h2>
+              <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">Uncompromised style</h2>
               <p className="text-lg text-gray-400">
-  Dive deeper into the cosmic abyss with the sol alien cluster, an extraordinary NFT collection on the Solana blockchain. Each NFT in this collection is a unique digital artifact, generated to embody the infinite wonders of the universe. 
-  Every Sol Alien NFT is one-of-a-kind, meticulously designed to ensure no two pieces are alike. This uniqueness is not just a feature; it&apos;s the essence of the collection.
-  Art Meets Community. It&apos;s a representation of our vibrant community and its core values. Each Sol Alien embodies a piece of our collective spirit and creativity.
-  By owning a Sol Alien, you’re not just acquiring digital art; you’re becoming a part of a revolutionary ecosystem. Our vision is to merge art with technology, fostering a community-driven project that thrives on innovation and shared values.
-  Join Us on This Journey
+  The aliens have learned one thing from humans: we have style. To blend in and disguise themselves as they prepare to take over the world again, the aliens are now dressed like humans.
+
+In due time, you will see the aliens rule the world once more. When that happens, you'd better be holding a Sol Alien Cluster—otherwise, you may be incinerated.
 </p>
             </div>
 
