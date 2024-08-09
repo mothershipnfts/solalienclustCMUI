@@ -52,7 +52,20 @@ export const HomeView: FC = ({ }) => {
             {wallet && (
               <div className="flex flex-col items-center">
                 <div className='text-center text-slate-420 ml-2'>
-                  Sol Alien Cluster is an NFT collection featuring 10,000 unique Aliens. Own a Sol Alien and be a part of the Solana community. Connect with like-minded explorers, become a holder of an asset in the next revolutionary cryptocurrency, Solana.
+                  Welcome to the Sol Alien Cluster - Where Innovation Meets the Unknown!
+
+Embark on an interstellar journey with Sol Alien Cluster, an exclusive NFT collection of 10,000 unique, cosmic Aliens. Each Sol Alien is a gateway to a vibrant community of explorers and visionaries who believe in the power of the next revolutionary cryptocurrency, Solana.
+
+Join the Mission:
+By owning a Sol Alien, you become part of a bold movement pushing the boundaries of the digital frontier. Not just an NFT, but a badge of honor in the Solana ecosystem—where technology, creativity, and community collide.
+
+Unleash the Future:
+This isn’t just about collecting; it’s about being part of something bigger. As a holder, you’ll unlock access to exclusive perks, future airdrops, and collaborations that are out of this world. Align yourself with the fastest-growing blockchain and watch your digital assets reach new heights.
+
+Ready to Take Off?
+Connect with like-minded explorers, showcase your Sol Alien, and stake your claim in the ever-expanding universe of Solana. Don’t miss your chance to own a piece of the future—mint your Sol Alien today and be a part of the next wave of digital pioneers!
+
+Sol Alien Cluster—The Galaxy Awaits.
                 </div>
               </div>
             )}
