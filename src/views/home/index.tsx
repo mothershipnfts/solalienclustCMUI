@@ -68,7 +68,6 @@ Before there were chimps, there were aliens. Now it's time for the aliens to ret
               <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">Uncompromised style</h2>
               <p className="text-lg text-gray-400">
   The aliens have learned one thing from humans: we have style. To blend in and disguise themselves as they prepare to take over the world again, the aliens are now dressed like humans.
-
 In due time, you will see the aliens rule the world once more. When that happens, you'd better be holding a Sol Alien Cluster—otherwise, you may be incinerated.
 </p>
             </div>
@@ -104,7 +103,7 @@ In due time, you will see the aliens rule the world once more. When that happens
             
             {/* Text Field on the Right */}
             <div className="flex-1">
-              <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">Trade on Magic Eden</h2>
+              <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">Trade on Magic Eden and Tensor</h2>
               <p className="text-lg text-gray-400">
                 After minting your NFT, you can easily trade it on Tensor and Magic Eden. Enjoy a smooth trading experience with high liquidity and a secure platform of your choice. Sol Alien Cluster connects you with a vibrant community and offers great exposure for your NFT. Buy, sell, and explore new opportunities in the dynamic world of NFTs.
               </p>
