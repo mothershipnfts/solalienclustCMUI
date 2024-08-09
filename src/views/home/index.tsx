@@ -52,8 +52,9 @@ export const HomeView: FC = ({ }) => {
             {wallet && (
               <div className="flex flex-col items-center">
                 <div className='text-center text-slate-420 ml-2'>
-                 Welcome to the Sol Alien Cluster—a group of aliens chilling on the Solana Network.
-Before there were chimps, there were aliens. Now it's time for the aliens to return and take over the world. It's time to destroy all humans.
+                Welcome to the Sol Alien Cluster—a group of aliens chilling on the Solana Network.
+                  Before there were chimps, there were aliens. Now it&#39;s time for the aliens to return and take over the world. It&#39;s time to destroy all humans.
+                </div>
                 </div>
               </div>
             )}
@@ -68,7 +69,7 @@ Before there were chimps, there were aliens. Now it's time for the aliens to ret
               <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600 mb-10">Uncompromised style</h2>
               <p className="text-lg text-gray-400">
   The aliens have learned one thing from humans: we have style. To blend in and disguise themselves as they prepare to take over the world again, the aliens are now dressed like humans.
-In due time, you will see the aliens rule the world once more. When that happens, you'd better be holding a Sol Alien Cluster—otherwise, you may be incinerated.
+                In due time, you will see the aliens rule the world once more. When that happens, you&#39;d better be holding a Sol Alien Cluster—otherwise, you may be incinerated.
 </p>
             </div>
 
