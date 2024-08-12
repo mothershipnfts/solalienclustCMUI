@@ -34,7 +34,7 @@ export const HomeView: FC = ({ }) => {
         <div className="relative group">
           <div className="relative z-10">
             <Image
-              src="/solalienclusterlogo3.png" // Replace with your image path or URL
+              src="/solaliencluster-logo.png" // Replace with your image path or URL
               alt="Sol Alien Cluster"
               layout="responsive"
               width={800} // Set appropriate width
